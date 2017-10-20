@@ -31,7 +31,7 @@ import butterknife.ButterKnife;
 import cz.msebera.android.httpclient.Header;
 
 
-public class BookListActivity extends AppCompatActivity {
+public class BookListActivity extends BaseActivity {
     private ListView lvBooks;
     private BookAdapter bookAdapter;
     private BookClient client;
